@@ -2,7 +2,6 @@ import tkinter as tk
 import re
 
 # nog even doen dat hij het einde ook niet pakt 
-# 
 
 
 def clear_text(text):
