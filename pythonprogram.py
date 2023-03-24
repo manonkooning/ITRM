@@ -2,7 +2,7 @@ import tkinter as tk
 import re
 
 
-def clear_text(text):
+def clear_text(text): 
     '''removes text before and including the sentence *** START OF THE PROJECT GUTENBERG EBOOK ***, removes text after *** END OF THE PROJECT GUTENBERG EBOOK ***, puts each word of the text into a list''' 
     pattern = r"\*\*\*(.*?)\*\*\*"  
     matches = re.findall(pattern, text)
